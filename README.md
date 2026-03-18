@@ -18,8 +18,6 @@ The counter updates dynamically, visually representing the frequency of incident
 
 ✅ Flashing Alerts: The progress bar changes color and flashes when nearing a new incident.
 
-✅ Beep Sound Effect: Plays a warning sound when an incident is about to be added.
-
 ✅ Optimized Speed for Demonstration: In this simulation, the timer updates more frequently for viewer ease, but in a real-world implementation, it would track incidents throughout the user's browsing session.
 
 
@@ -166,9 +164,6 @@ let incidentCount = localStorage.getItem('incidentCount') ? parseInt(localStorag
 - Adjust the incidentsPerMinute variable in script.js.
 - Change the setInterval() timing to control update frequency.
 
-🔊 To replace the sound:
-
-- Replace sounds/warning.wav with another audio file and update the path in script.js.
 
 License:
 
